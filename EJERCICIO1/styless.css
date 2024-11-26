@@ -1,0 +1,20 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+}
+    
+h1, h2, h3, h4, h5, h6 {
+        margin-top: 20px; /*Espacio arriba de cada encabezado*/
+        margin-bottom: 20px; /*Espacio abajo de cada encabezado*/
+        padding: 20px; /*Relleno interno del encabezado*/
+        border: 2px solid #000000; /*Borde de 2px de grosor*/
+        border-radius: 8px; /*Bordes redondeados*/
+        display: inline-block; /*Hace que el encabezado tenga un tamaño ajustado al contenido*/
+    }    
+h1{background-color: rgb(155, 91, 215);}
+h2{background-color: rgb(181, 90, 149);}
+h3{background-color: rgb(117, 186, 96);}
+h4{background-color: rgb(36, 106, 104);}
+h5{background-color: rgb(62, 83, 185);}
+h6{background-color: rgb(192, 37, 37);}
